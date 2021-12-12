@@ -1,0 +1,25 @@
+{
+  "name": "truffle_demo",
+  "version": "1.0.0",
+  "description": "DEMO Contract",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "script/runGanacheForTestAndMigrate.sh"
+  },
+  "devDependencies": {
+    "bip39": "^3.0.4",
+    "chai": "^4.3.4",
+    "ethereumjs-wallet": "^1.0.1",
+    "semver": "^7.3.5",
+    "web3-utils": "^1.4.0"
+  },
+  "dependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "bn.js": "^5.2.0",
+    "chai-bn": "^0.3.0",
+    "dotenv": "^10.0.0"
+  }
+}
